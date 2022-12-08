@@ -1,0 +1,288 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.3 2021.07, Jul 13 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Flubberknuckle/Documents/GitHub/dldfall2022/Project/sv
+T_opt
+!s110 1670455898
+VVkh<_@L3O_LX1^Ehn2JeT3
+04 8 4 work stimulus fast 0
+=1-54ee75b23195-63912259-23a-12d0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.3;73
+vclk_div
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1670455896
+!i10b 1
+!s100 `JRJIPio>2zAaNOMPjME61
+Id@>3h@j:dj1Gn[AXzS>;J2
+S1
+R0
+w1668790152
+8clk_div.sv
+Fclk_div.sv
+!i122 0
+L0 1 14
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.3;73
+r1
+!s85 0
+31
+Z6 !s108 1670455896.000000
+Z7 !s107 clk_div.sv|life_tb.sv|control_logic.sv|datapath.sv|
+Z8 !s90 datapath.sv|control_logic.sv|life_tb.sv|clk_div.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcontrol_logic
+R2
+R3
+!i10b 1
+!s100 >n<F7cT[>c>[ez@<O[T=P2
+I2Vck9A:OdaW?YGd>Ogd0X0
+S1
+R0
+Z10 w1670455879
+Z11 8control_logic.sv
+Z12 Fcontrol_logic.sv
+!i122 0
+L0 1 15
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vDALOGIC
+R2
+R3
+!i10b 1
+!s100 j_e:Blk3ae6A8XT_n5Bmj0
+IKghThO78lM1C04`0RVPFX0
+S1
+R0
+Z13 w1669955232
+Z14 8datapath.sv
+Z15 Fdatapath.sv
+!i122 0
+L0 162 4
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@d@a@l@o@g@i@c
+vdatapath
+R2
+R3
+!i10b 1
+!s100 7R[9D;G]M?VWE;:DL13g=2
+IP@39OLCSKPg4Ib<=7ROWd2
+S1
+R0
+R13
+R14
+R15
+!i122 0
+L0 7 82
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vevolve3
+R2
+R3
+!i10b 1
+!s100 7[JD`kdjBDd7nW1Km?[1l1
+IUoKklF_Ve^gFzCkP6n>dP3
+S1
+R0
+R13
+R14
+R15
+!i122 0
+L0 91 14
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vevolve5
+R2
+R3
+!i10b 1
+!s100 ^WTkU=c@FCL_T;MZQPN`k0
+I6hQIzH>h4a[]FQYHGnJcW1
+S1
+R0
+R13
+R14
+R15
+!i122 0
+L0 106 17
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vevolve8
+R2
+R3
+!i10b 1
+!s100 3T:]n8mo;1??YLV2in23a3
+InB@_3SOM^`7jR=V4Kc@FM0
+S1
+R0
+R13
+R14
+R15
+!i122 0
+L0 125 23
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vFSM
+R2
+R3
+!i10b 1
+!s100 h_Rci1kLG65[VemhABAVm2
+IWd[JcYFaZQ0nCfPMlWO[Z2
+S1
+R0
+R10
+R11
+R12
+!i122 0
+L0 17 43
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@f@s@m
+vmux
+R2
+R3
+!i10b 1
+!s100 X>EOD9D_kfeNGlmn^Hco@0
+I;b5aC>>Ug@P;e0QZVK;d?0
+S1
+R0
+R10
+R11
+R12
+!i122 0
+L0 63 8
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vrules
+R2
+R3
+!i10b 1
+!s100 R44Unn[bB[7XojDMZchk:1
+IK5i<N7fz`_<B1cMn9f60R2
+S1
+R0
+R13
+R14
+R15
+!i122 0
+L0 150 10
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vstimulus
+R2
+R3
+!i10b 1
+!s100 B0lBZgTiLPlEaWog=nnVm0
+IfoLm32:^izz3cNW<X^BG70
+S1
+R0
+w1670454435
+8life_tb.sv
+Flife_tb.sv
+!i122 0
+L0 2 46
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

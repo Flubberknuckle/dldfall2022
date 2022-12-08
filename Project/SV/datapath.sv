@@ -8,7 +8,8 @@ module datapath ( grid, grid_evolve );
 
    output logic [63:0] 	grid_evolve;
    input logic [63:0] 	grid;
-   
+
+   //row 1
    evolve3 e0_0 (grid_evolve[0], grid[1], grid[8], grid[9], grid[0]);
    evolve5 e0_1 (grid_evolve[1], grid[0], grid[2], grid[8], grid[9], grid[10], grid[1]);
    evolve5 e0_2 (grid_evolve[2], grid[1], grid[3], grid[9], grid[10], grid[11], grid[2]);
@@ -18,6 +19,7 @@ module datapath ( grid, grid_evolve );
    evolve5 e0_6 (grid_evolve[6], grid[5], grid[7], grid[13], grid[14], grid[15], grid[6]);
    evolve3 e0_7 (grid_evolve[7], grid[6], grid[14], grid[15], grid[7]);
    
+   //row 2, etc
    evolve5 e1_0 (grid_evolve[8], grid[0], grid[1], grid[9], grid[16], grid[17], grid[8]);
    evolve8 e1_1 (grid_evolve[9], grid[0], grid[1], grid[2], grid[8], grid[10], grid[16], grid[17], grid[18], grid[9]);
    evolve8 e1_2 (grid_evolve[10], grid[1], grid[2], grid[3], grid[9], grid[11], grid[17], grid[18], grid[19], grid[10]);
@@ -72,6 +74,7 @@ module datapath ( grid, grid_evolve );
    evolve8 e6_6 (grid_evolve[54], grid[5+8*5], grid[6+8*5], grid[7+8*5], grid[13+8*5], grid[15+8*5], grid[21+8*5], grid[22+8*5], grid[23+8*5], grid[54]);
    evolve5 e6_7 (grid_evolve[55], grid[6+8*5], grid[7+8*5], grid[14+8*5], grid[22+8*5], grid[23+8*5], grid[47]);
    
+   //row 8
    evolve3 e7_0 (grid_evolve[56], grid[0+8*6], grid[1+8*6], grid[9+8*6], grid[56]);
    evolve5 e7_1 (grid_evolve[57], grid[0+8*6], grid[1+8*6], grid[2+8*6], grid[8+8*6], grid[10+8*6], grid[57]);
    evolve5 e7_2 (grid_evolve[58], grid[1+8*6], grid[2+8*6], grid[3+8*6], grid[9+8*6], grid[11+8*6], grid[58]);
@@ -86,7 +89,7 @@ endmodule // top
 
 
 module evolve3 (next_state, vector1, vector2, vector3, current_state);
-	
+	//vectors are surrounding squares
    input logic  vector1;
    input logic  vector2;
    input logic  vector3;
@@ -149,12 +152,14 @@ module rules (pop_count, current_state, next_state);
    input logic [3:0] pop_count;
    input logic 	     current_state;
    output logic      next_state;
-   
+
+   //OR gate for the next iteration of the cell (alive or dead)
    assign next_state = (pop_count == 2 & current_state) | pop_count == 3;
    
 endmodule // rules
 
 
+module DALOGIC();
+//
 
-
-
+endmodule
